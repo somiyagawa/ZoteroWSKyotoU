@@ -1,35 +1,38 @@
 ---
 marp: true
-theme: uncover
+theme: gaia
+class: invert lead
 header: "**UD入門WS 2022年2月11日**"
 footer: "by **So Miyagawa**"
-backgroundColor: #F2F2F2	
+backgroundColor: 	
 size: 16:9
 paginate: true
 
 style: |
     section.title {
         justify-content: center;
-        text-align: left;
-        text-color: navy;
+        text-align: center;
     }
-
-    section {
+    h2 {
+        color: orange;
+    }
+      section {
         justify-content: center;
         text-align: left;
-        color: #020026;
+        
     }
 
 ---
 <!-- _class: title -->
-# Universal Dependencies <br> 入門ワークショップ
+# Universal Dependencies <br>入門ワークショップ
 
-- 宮川創 
-- 京都大学 大学院文学研究科・文学部 助教
-- Twitter: @So_Miyagawa
-- miyagawa.so.36u@kyoto-u.jp
-- somiyagawa.com 
+宮川 創
+## So Miyagawa
 
+京都大学 大学院文学研究科・文学部 助教
+Twitter: @So_Miyagawa
+miyagawa.so.36u@kyoto-u.jp
+somiyagawa.com 
 
 <!--
 _color: #fffff9
@@ -37,19 +40,32 @@ _color: #fffff9
 ![bg brightness:0.2](https://upload.wikimedia.org/wikipedia/commons/b/b5/Universal_joint.gif)
 
 ---
-## Universal Dependencies 
 
-![bg 80% contrast:2](https://universaldependencies.org/logos/logo-ud.png)
+## Universal Dependencies
 
-Universal Dependencies (UD)は、人間の異なる言語間で文法（品詞、形態素情報、統語依存関係）を**一貫して**アノテーションするためのフレームワークである。UDは、**300**人以上の貢献者が**100以上の言語**で**200近くのツリーバンク**を作成するオープンなコミュニティ活動である。(https://universaldependencies.org/ から翻訳)
+*Universal Dependencies (UD)は、人間の異なる言語間で文法（品詞、形態素情報、統語依存関係）を**一貫して**アノテーションするためのフレームワークである。UDは、**300**人以上の貢献者が**100以上の言語**で**200近くのツリーバンク**を作成するオープンなコミュニティ活動である。*
 
+![bg right:35% height:60%](https://universaldependencies.org/logos/logo-ud.png)
+<!--
+_footer: '文章は[UD公式サイト](https://universaldependencies.org/)から翻訳'
+-->
 ---
 ## UDの目的
-UDは、**言語類型論**の観点から、**多言語解析器**の開発、**通言語的学習**、**構文解析研究**を促進することを目的に、**多言語の通言語的一貫ツリーバンク注釈**を開発しているプロジェクトである。(https://universaldependencies.org/introduction.html から翻訳)
+*UDは、言語類型論の観点から、多言語解析器の開発、通言語的学習、構文解析研究を促進することを目的に、多言語の通言語的一貫ツリーバンク注釈を開発しているプロジェクトである。*
+<!--
+_footer: '文章は[UD公式サイト](https://universaldependencies.org/introduction.html)から翻訳
+'
+-->
+
 
 ---
 ## UDの歴史
-このアノテーションは、スタンフォード依存関係（de Marneffe et al., 2006, 2008, 2014）、Googleユニバーサル品詞タグ（Petrov et al 2012)そして、形態統語タグセットであるインターセット・インターリングア（Zeman 2008）の進化に基づいている. 一般的な理念は、言語間で類似構文の一貫したアノテーションを容易にするために、普遍的なカテゴリとガイドラインの目録を提供し、必要な場合は言語固有の拡張を可能にすることである。(https://universaldependencies.org/introduction.html)
+- *このアノテーションは、スタンフォード依存関係（de Marneffe et al., 2006, 2008, 2014）、Googleユニバーサル品詞タグ（Petrov et al 2012)そして、形態統語タグセットであるインターセット・インターリングア（Zeman 2008）の進化に基づいている.*
+- *一般的な理念は、言語間で類似構文の一貫したアノテーションを容易にするために、普遍的なカテゴリとガイドラインの目録を提供し、必要な場合は言語固有の拡張を可能にすることである。*
+<!--
+_footer: '文章は[UD公式サイト](https://universaldependencies.org/introduction.html)から翻訳
+'
+-->
 
 
 ---
@@ -94,7 +110,7 @@ _footer: 'Photo by Ralph (Ravi) Kayden on Unsplash'
 
 ![bg 80%](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/The_house_at_the_end_of_the_street.jpg/640px-The_house_at_the_end_of_the_street.jpg)
 <!--
-_footer: 'Photo by Ralph (Ravi) Kayden on Unsplash'
+_footer: 'Image by Tjo3ya on Wikimedia Commons under '
 -->
 ---
 
@@ -127,30 +143,39 @@ _footer: 'Photo by Ralph (Ravi) Kayden on Unsplash'
 ---
 
 ## エディタ
-- Excel
-- Google Spreadsheet (おすすめ！)
-- deplacy (おすすめ！）)
-- Arborator Grew
-- VSCode
-
+[ツール一覧はこちら](https://universaldependencies.org/tools.html)
+- ExcelやGoogle Spreadsheet
+- [deplacy](https://github.com/KoichiYasuoka/deplacy) (おすすめ！）
+- [Arborator Grew](https://arboratorgrew.elizia.net/)
+- [VSCode](https://code.visualstudio.com/)
+- [WebAnno](https://webanno.github.io/webanno/)
+- [conllu.js](http://spyysalo.github.io/conllu.js/)
+![bg right:50% 100%](https://universaldependencies.org/img/conllueditor_tree.png)
 
 
 ---
 ## UDPipeを体験してみよう
-- あああ
-- いいい
-- ううう
-- 
+
+- UDPipeとは
+    - プラハ・カレル大学が開発しているUD自動解析器（パーサー）
+- GitHub上の多数の言語のUDツリーバンクを学習している
+- UDPipe1, UDPipe2, UDPipe3
+- 日本語のパーサーもある
+
+クリック→ https://lindat.mff.cuni.cz/services/udpipe/
+
 ---
 
 ## deplacyを体験してみよう
 - 京都大学の安岡孝一教授が作成
 - 様々な可視化
 - 使いやすいエディタ
-- 様々な学習済みモデルが使える
+- リクルートと国語研が開発したGiNZAなど、様々な学習済みモデルが使える
+
+クリック→[deplacyによる日本語解析](https://colab.research.google.com/github/KoichiYasuoka/deplacy/blob/master/doc/ja.ipynb)
 
 
 <!--
-_footer: 'Photo by Ralph (Ravi) Kayden on Unsplash'
+_footer: 'Photo from https://www.zinbun.kyoto-u.ac.jp/members/private/yasuoka.html'
 -->
-![bg right:40% brightness:1.2](https://images.unsplash.com/photo-1597602103287-0b5581d80427?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)
+![bg right:40% brightness:1.2](https://www.zinbun.kyoto-u.ac.jp/images/members/32.YASUOKA-Koichi.jpg)
