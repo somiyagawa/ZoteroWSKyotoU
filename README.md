@@ -9,19 +9,25 @@ size: 16:9
 paginate: true
 
 style: |
+    @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
     section.title {
         justify-content: center;
         text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    body {
+        font-family: 'Noto Sans JP', sans-serif;
     }
     h2 {
         color: orange;
+        font-family: 'Noto Sans JP', sans-serif;
     }
       section {
         justify-content: center;
         text-align: left;
-        
+        font-family: 'Noto Sans JP', sans-serif;
     }
-
+    
 ---
 <!-- _class: title -->
 # Universal Dependencies <br>入門ワークショップ
@@ -104,13 +110,13 @@ _footer: 'Photo by Peo Hedin on Unsplash'
 
 ![bg 80%](https://upload.wikimedia.org/wikipedia/commons/0/0d/Wearetryingtounderstandthedifference_%282%29.jpg) 
 <!--
-_footer: 'Photo by Ralph (Ravi) Kayden on Unsplash'
+_footer: 'Image by Tjo3ya on Wikimedia Commons under CC BY-SA 3.0'
 -->
 ---
 
 ![bg 80%](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/The_house_at_the_end_of_the_street.jpg/640px-The_house_at_the_end_of_the_street.jpg)
 <!--
-_footer: 'Image by Tjo3ya on Wikimedia Commons under '
+_footer: 'Image by Tjo3ya on Wikimedia Commons under CC BY-SA 3.0'
 -->
 ---
 
