@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: gaia
-class: lead
+class: invert lead
 header: "**UD入門WS 2022年2月11日**"
 footer: "by **So Miyagawa**"
 backgroundColor: 	
@@ -39,7 +39,7 @@ style: |
 Twitter: @So_Miyagawa
 miyagawa.so.36u@kyoto-u.jp
 somiyagawa.com 
-CC BY-SA 3.0
+CC BY-SA
 <!--
 _color: #fffff9
 -->
