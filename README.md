@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: gaia
-class: invert lead
+class: lead
 header: "**UD入門WS 2022年2月11日**"
 footer: "by **So Miyagawa**"
 backgroundColor: 	
@@ -184,4 +184,4 @@ _footer: 'Image by Tjo3ya on Wikimedia Commons under CC BY-SA 3.0'
 <!--
 _footer: 'Photo from https://www.zinbun.kyoto-u.ac.jp/members/private/yasuoka.html'
 -->
-![bg right:40% brightness:1.2](https://www.zinbun.kyoto-u.ac.jp/images/members/32.YASUOKA-Koichi.jpg)
+![bg right:35% brightness:1.2](https://www.zinbun.kyoto-u.ac.jp/images/members/32.YASUOKA-Koichi.jpg)
