@@ -39,7 +39,7 @@ style: |
 Twitter: @So_Miyagawa
 miyagawa.so.36u@kyoto-u.jp
 somiyagawa.com 
-
+CC BY-SA 3.0
 <!--
 _color: #fffff9
 -->
