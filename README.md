@@ -4,7 +4,8 @@ theme: gaia
 class: invert lead
 header: "**UD入門WS 2022年2月11日**"
 footer: "by **So Miyagawa**"
-backgroundColor: 	
+backgroundColor: #42466f
+
 size: 16:9
 paginate: true
 
@@ -149,13 +150,15 @@ _footer: 'Image by Tjo3ya on Wikimedia Commons under CC BY-SA 3.0'
 ---
 
 ## エディタ
-[ツール一覧はこちら](https://universaldependencies.org/tools.html)
-- ExcelやGoogle Spreadsheet
+- Google Spreadsheet
 - [deplacy](https://github.com/KoichiYasuoka/deplacy) (おすすめ！）
 - [Arborator Grew](https://arboratorgrew.elizia.net/)
 - [VSCode](https://code.visualstudio.com/)
 - [WebAnno](https://webanno.github.io/webanno/)
 - [conllu.js](http://spyysalo.github.io/conllu.js/)
+
+[ツール一覧はこちら](https://universaldependencies.org/tools.html)
+
 ![bg right:50% 100%](https://universaldependencies.org/img/conllueditor_tree.png)
 
 
