@@ -183,8 +183,3 @@ _footer: 'Image by Tjo3ya on Wikimedia Commons under CC BY-SA 3.0'
 
 クリック→[deplacyによる日本語解析](https://colab.research.google.com/github/KoichiYasuoka/deplacy/blob/master/doc/ja.ipynb)
 
-
-<!--
-_footer: 'Photo from https://www.zinbun.kyoto-u.ac.jp/members/private/yasuoka.html'
--->
-![bg right:35% brightness:1.2](https://www.zinbun.kyoto-u.ac.jp/images/members/32.YASUOKA-Koichi.jpg)
