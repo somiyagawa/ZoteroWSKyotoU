@@ -76,9 +76,9 @@ _color: #fffff9
 
 ## Zotero をインストールしてみよう
 
-- Mac, Win, Linux, ブラウザで用いることができる
-- [こちらからダウンロード](https://www.zotero.org/)
-- ついでにアカウントも作ってみよう
+- Mac, Win, Linux, ブラウザ(クラウド版)で用いることができる
+- [こちらからダウンロードしてください](https://www.zotero.org/)
+- [アカウントも作ってみてください](https://www.zotero.org/user/register)
 
 
 ![bg right:50% height:50%](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Zotero-5-macOS-Screenshot%402x.png/600px-Zotero-5-macOS-Screenshot%402x.png)
