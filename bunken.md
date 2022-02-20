@@ -2,31 +2,28 @@
 marp: true
 theme: gaia
 class: invert lead
-header: "**UD入門WS 2022年2月11日**"
+header: "**Zotero入門WS 2022年2月21日**"
 footer: "by **So Miyagawa**"
-backgroundColor: #42466f
+backgroundColor: #00205b
 
 size: 16:9
 paginate: true
 
 style: |
-    @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+    html[lang="ja"] {
+        font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    }
     section.title {
         justify-content: center;
         text-align: center;
-        font-family: 'Noto Sans JP', sans-serif;
-    }
-    body {
-        font-family: 'Noto Sans JP', sans-serif;
     }
     h2 {
-        color: orange;
-        font-family: 'Noto Sans JP', sans-serif;
+        color: yellow;
     }
       section {
         justify-content: center;
         text-align: left;
-        font-family: 'Noto Sans JP', sans-serif;
     }
     
 ---
@@ -56,10 +53,20 @@ _color: #fffff9
     - 研究で用いる文献の管理を容易にする
     - 引用や参照文献表の作成を容易にする
     - Microsoft WordやLaTeXなどで容易に使える
-
 ![bg right:25% height:60%](https://pbs.twimg.com/profile_images/482247447293337601/hBQdLi_-_400x400.png)
 
 --- 
+
+## そもそも文献管理ソフトウェアとは
+- 参考文献の管理・引用・リスト化を容易にするもの
+- いちいち参考文献の情報を手で打っていたら大変
+    -     宮川(2018:7)によると、べーサの文献の一部は、イタリア・ナポリの国立ヴィットーリオ・エマヌエーレ３世図書館にあるという。
+    -     宮川創. 2018. 「コプト語サイード方言の言語資料と文法注釈―ナポリ・国立ヴィットーリオ・エマヌエーレ3世図書館蔵・ベーサによるテクストの断片―」『言語記述論集』10: 271–320.
+- 日本では有料ソフト(EndNoteやRefWorks）が主流だった
+- 無料（一部課金）ソフトが海外では人気
+- 例：Zotero, Mendeley, JatRef, PaperPileなど
+
+---
 
 ## 他の文献管理ソフトとどう違うか
 
@@ -105,6 +112,6 @@ _color: #fffff9
 
 
 ---
-# BibTeXとZoteroを交互に用いる（10分） 
+# BibTeXとZoteroを交互に用いる (10分)
 ---
-# Zoteroを用いてLaTeXで文献を引用する（10分）
+# Zoteroを用いてLaTeXで文献を引用する (10分)
